@@ -1,0 +1,85 @@
+1>> Introduction :: -------------------------------------------------------------------------------------------------------------------------------------->
+
+Initially it was called Oak, in honor of the tree outside James Gosling's window; its name was changed to Java 
+because there was already a language called Oak. Java is based upon the concept “Write once, run anywhere”. 
+The idea is that the same software should run on different kinds of computers, consumer gadgets, and the other devices. 
+Unlike most programming languages that generates executable code upon compilation; the JVM generates byte codes as a result of compilation. 
+Java byte codes are form of instructions understood by Java Virtual Machine and usually generated as a result of compiling Java languages source code. 
+
+
+Java Virtual Machine :: ------------------------------------------------------------------------------------------------------------------------------------>
+
+The JVM or Java Virtual Machine has an interpreter component that enables communication between Java Byte Code and a computer’s operating system. 
+Using a JVM we can run a java code on any platform such as windoxxp, windox 98, unix etc. 
+JVM normally reads and execute java statements once at a time. 
+However a JVM can include JIT (Just in Time) compiler within it. A JIT compiler converts all programs to byte code and is thus faster than a conventional JVM. 
+
+
+3) What makes Java, most powerful language ? Java Buzz Words :: ----------------------------------------------->
+
+(i) Simple
+
+Java was designed to be easy for the professional programmer to learn and use effectively. 
+Because Java inherits the C/C++ syntax and many of the object-oriented features of C++, 
+most programmers have little trouble learning Java. Also, some of the more confusing concepts 
+from C++ are either left out of Java or implemented in a cleaner, more approachable manner. 
+In Java, there are a small number of clearly defined ways to accomplish a given task.
+
+(ii) Security
+
+When we use a Java-compatible Web browser, we can safely download Java applets without fear of 
+viral infection or malicious intent. Java achieves this protection by confining a Java program 
+to the Java execution environment (sand box area) and not allowing it access to other parts of the computer. 
+This control is exercised by JVM.
+
+(iii) Portability
+
+Many types of computers and operating systems are in use throughout the world and many are connected to the Internet.
+For programs to be dynamically downloaded to various types of platforms connected to the Internet, 
+some portable executable code is needed that can run on any environment i.e. the Byte Code.
+
+
+ 
+(iv) Object-Oriented
+
+Like C++ , java uses all the OOP concepts like encapsulation, inheritance and polymorphism etc. 
+Java is called a purely object oriented language as everything we write inside class in a java program.
+
+(v) Robust
+
+The multiplatform environment of the Web places extraordinary demands on a program, because the program 
+must execute reliably in a variety of systems. Thus, the ability to create robust
+programs was given a high priority in the design of Java. To gain reliability, Java restricts us in a few key areas, 
+to force you to find our mistakes early in program development.
+
+(vi) Multithreaded
+
+Java was designed to meet the real-world requirement of creating interactive, networked programs. 
+To accomplish this, Java supports multithreaded programming, which allows us to write programs that do 
+many things simultaneously. The Java run-time system comes with an elegant yet sophisticated solution for
+multiprocess synchronization that enables us to construct smoothly running interactive systems.
+
+(vii) Architecture-Neutral
+
+A central issue for the Java designers was that of code longevity and portability. One of the main problems
+facing programmers is that no guarantee exists that if you write a program today, it will run tomorrow, 
+even on the same machine. Operating system upgrades, processor upgrades, and changes in core system resources 
+can all combine to make a program malfunction. The Java designers made several hard decisions in the Java language 
+and the Java Virtual Machine in an attempt to alter this situation. Their goal was “write once; run anywhere, anytime, 
+forever.” To a great extent, this goal was accomplished.
+
+(viii) Distributed
+
+Java is designed for the distributed environment of the Internet, because it handles TCP/IP protocols. 
+In fact, accessing a resource using a URL is not much different from accessing a file. 
+The original version of Java (Oak) included features for intra address- space messaging. 
+This allowed objects on two different computers to execute procedures remotely.
+
+(ix) Dynamic
+
+Java programs carry with them substantial amounts of run-time type information that is used to verify 
+and resolve accesses to objects at run time. This makes it possible to dynamically link code in a
+safe and expedient manner. This is crucial to the robustness of the applet environment, in which small
+fragments of byte code may be dynamically updated on a running system.
+
+
