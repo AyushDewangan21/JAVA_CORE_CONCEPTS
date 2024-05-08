@@ -7,7 +7,7 @@ Unlike most programming languages that generates executable code upon compilatio
 Java byte codes are form of instructions understood by Java Virtual Machine and usually generated as a result of compiling Java languages source code. 
 
 
-Java Virtual Machine :: ------------------------------------------------------------------------------------------------------------------------------------>
+2>> Java Virtual Machine :: ------------------------------------------------------------------------------------------------------------------------------------>
 
 The JVM or Java Virtual Machine has an interpreter component that enables communication between Java Byte Code and a computer’s operating system. 
 Using a JVM we can run a java code on any platform such as windoxxp, windox 98, unix etc. 
@@ -15,7 +15,7 @@ JVM normally reads and execute java statements once at a time.
 However a JVM can include JIT (Just in Time) compiler within it. A JIT compiler converts all programs to byte code and is thus faster than a conventional JVM. 
 
 
-3) What makes Java, most powerful language ? Java Buzz Words :: ----------------------------------------------->
+3>> What makes Java, most powerful language ? Java Buzz Words :: ----------------------------------------------->
 
 (i) Simple
 
@@ -83,3 +83,13 @@ safe and expedient manner. This is crucial to the robustness of the applet envir
 fragments of byte code may be dynamically updated on a running system.
 
 
+
+4>> What is Garbage Collection in Java? :: ----------------------------------------------------------------------------------------------------->
+
+Garbage Collection in Java is a process by which the programs perform memory management automatically. The Garbage Collector(GC) finds the unused 
+objects and deletes them to reclaim the memory. In Java, dynamic memory allocation of objects is achieved using the new operator that uses some 
+memory and the memory remains allocated until there are references for the use of the object. When there are no references to an object, it is 
+assumed to be no longer needed, and the memory, occupied by the object can be reclaimed. There is no explicit need to destroy an object as Java
+handles the de-allocation automatically.The technique that accomplishes this is known as Garbage Collection. Programs that do not de-allocate memory
+can eventually crash when there is no memory left in the system to allocate. These programs are said to have memory leaks. Garbage collection in 
+Java happens automatically during the lifetime of the program, eliminating the need to de-allocate memory and thereby avoiding memory leaks.
