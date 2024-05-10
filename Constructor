@@ -1,0 +1,14 @@
+1.	//Java Program to create and call a default constructor  
+2.	class Bike1{  
+3.	//creating a default constructor  
+4.	Bike1()
+5.	{
+6.	System.out.println("Bike is created");
+7.	}  
+8.	//main method  
+9.	public static void main(String args[]){  
+10.	//calling a default constructor  
+11.	 Bike1 x=new Bike1(10);
+12.	  
+13.	}  
+14.	}  
