@@ -1,5 +1,5 @@
 // super keyword is used in java to access the parent class data memebers 
-// 
+// it us used to call method, variable and constructor of the Parent class 
 
 class Animal
 {
