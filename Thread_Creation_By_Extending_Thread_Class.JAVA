@@ -5,7 +5,7 @@ The extending class must override the run ( ) method, which is the entry point f
 Program 6.2   Creating Thread by Extending Thread class.
 
 Solution:
-/*
+*/
 
 class NewThread extends Thread
 
