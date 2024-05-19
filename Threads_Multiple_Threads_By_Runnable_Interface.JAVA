@@ -54,7 +54,9 @@ class MultiThreadDemo
 
 }
 
-Output
+
+/*
+OUTPUT :
 
 New thread: Thread[One,5,main] New thread: Thread[Two,5,main] New thread: Thread[Three,5,main] One: 5
 
@@ -89,3 +91,4 @@ Two: 1
 One exiting. Two exiting. Three exiting.
 
 Main thread exiting.
+*/
