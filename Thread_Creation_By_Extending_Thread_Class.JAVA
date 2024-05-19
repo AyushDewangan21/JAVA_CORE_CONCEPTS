@@ -11,7 +11,9 @@ class NewThread extends Thread
 {
    NewThread()
    {
-     super("Demo Thread"); System.out.println("Child thread: " + this); start();
+     super("Demo Thread"); 
+     System.out.println("Child thread: " + this);
+     start();
    }
 
    public void run()
