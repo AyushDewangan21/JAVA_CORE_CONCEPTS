@@ -1,60 +1,35 @@
-Program 6.3
-Multiple Thread Creation by implementing Runnable interface
-
-
-
-
-
-
-
-Solution:
+// Multiple Thread Creation by implementing Runnable interface
 
 class NewThread implements Runnable
-
 {
+   String name;
+   Thread t;
+   NewThread(String threadname)
+   {
+      name = threadname;
+      t = new Thread(this, name);
+      System.out.println("New thread: " + t);
+      t.start();   // Start the thread
+   }
 
-String name; Thread t;
+   public void run()
+   {
+      try
+      {
+          for(int i = 5; i > 0; i--) 
+          { 
+               System.out.println(name + ": " + i);
+               Thread.sleep(1000);
+          }
+      }
 
-NewThread(String threadname)
+      catch (InterruptedException e)
+      {
+            System.out.println(name + "Interrupted");
+      }
 
-{
-
-name = threadname;
-
-t = new Thread(this, name); System.out.println("New thread: " + t); t.start(); // Start the thread
-
-}
-
-public void run()
-
-{
-
-try
-
-{
-
-for(int i = 5; i > 0; i--)
-
-{
-
-System.out.println(name + ": " + i); Thread.sleep(1000);
-
-}
-
-}
-
-catch (InterruptedException e)
-
-{
-
-System.out.println(name + "Interrupted");
-
-}
-
-System.out.println(name + " exiting.");
-
-}
-
+      System.out.println(name + " exiting.");
+   }
 }
 
 class MultiThreadDemo
