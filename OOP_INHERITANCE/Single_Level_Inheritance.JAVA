@@ -21,3 +21,9 @@ class TestInheritance
   d.eat();  
   }
 }  
+
+/*
+OUTPUT :
+barking...
+eating...
+*/
