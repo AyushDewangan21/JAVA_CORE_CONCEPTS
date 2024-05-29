@@ -33,7 +33,7 @@ class TestInheritance3
 }  
 
 
-/
+/*
 OUTPUT:
 
 meowing...
