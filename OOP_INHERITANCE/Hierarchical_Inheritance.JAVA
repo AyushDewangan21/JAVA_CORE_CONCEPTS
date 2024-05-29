@@ -33,3 +33,9 @@ class TestInheritance3
 }  
 
 
+/"
+Output:
+
+meowing...
+eating..
+*/
