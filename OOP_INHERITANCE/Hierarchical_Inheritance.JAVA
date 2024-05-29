@@ -34,7 +34,7 @@ class TestInheritance3
 
 
 /"
-Output:
+OUTPUT:
 
 meowing...
 eating..
