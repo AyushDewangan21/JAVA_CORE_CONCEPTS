@@ -11,7 +11,7 @@ class Helper
    }
 }
  
-// Main Class 
+// Main Class
 
 class Demo
 {
