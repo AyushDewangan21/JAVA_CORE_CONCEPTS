@@ -47,3 +47,12 @@ class TestPolymorphism2
     s.draw();  
   }  
 }  
+
+
+/*
+OUTPUT:
+
+drawing rectangle...
+drawing circle...
+drawing triangle...
+*/
