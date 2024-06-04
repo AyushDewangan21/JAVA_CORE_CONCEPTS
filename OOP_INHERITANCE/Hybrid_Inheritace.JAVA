@@ -1,4 +1,4 @@
-//Using Multilevel and Hierarchical Inheritance
+// HYBRID INHERITANCE by Using Multilevel and Hierarchical Inheritance
 
 /* In the following figure, GrandFather is a super class.
 The Father class inherits the properties of the GrandFather class.
