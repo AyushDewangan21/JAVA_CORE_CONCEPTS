@@ -57,3 +57,15 @@ public static void main(String args[])
   obj2.showG();  // Accessing GrandFather class method  
   }    
 }  
+
+
+/*
+OUTPUT:
+
+He is son.
+He is father.
+He is grandfather.
+She is daughter.
+He is father.
+He is grandfather.
+*/
