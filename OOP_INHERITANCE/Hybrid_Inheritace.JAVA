@@ -11,7 +11,7 @@ it denotes the hybrid inheritance. */
 class GrandFather    
 {    
   public void showG()    
-  {    
+  {   
     System.out.println("He is grandfather.");    
   }    
 }    
