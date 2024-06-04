@@ -1,3 +1,13 @@
+//Using Multilevel and Hierarchical Inheritance
+
+/* In the following figure, GrandFather is a super class.
+The Father class inherits the properties of the GrandFather class.
+Since Father and GrandFather represents single inheritance. 
+Further, the Father class is inherited by the Son and Daughter class. 
+Thus, the Father becomes the parent class for Son and Daughter. 
+These classes represent the hierarchical inheritance. Combinedly, 
+it denotes the hybrid inheritance. */
+
 class GrandFather    
 {    
 public void showG()    
