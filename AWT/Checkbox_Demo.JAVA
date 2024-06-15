@@ -10,7 +10,8 @@ class CheckboxDemo extends Frame implements ItemListener
   Checkbox c3 = new Checkbox("Java");
   Checkbox c4 = new Checkbox("PHP");
 
-  Label l=new Label(msg); 
+  Label l=new Label(msg);
+
   public CheckboxDemo(Strings)
   {
    super(s);
