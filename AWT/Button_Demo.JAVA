@@ -1,19 +1,15 @@
-import java.awt.*; import java.awt.event.*;
+import java.awt.*;
+import java.awt.event.*;
 
 class ButtonDemo extends Frame implements ActionListener
-
 {
+  String msg = " ";
+  Button yes= new Button("Yes");
+  Button no= new Button("No");
+ 
+  Button maybe= new Button("Undecided"); Label l=new Label(msg);
 
-String msg = " ";
-
-Button yes= new Button("Yes"); Button no= new Button("No");
-
-Button maybe= new Button("Undecided"); Label l=new Label(msg);
-
-public ButtonDemo(String s)
-135
-
-
+  public ButtonDemo(String s)
 {
 
 super(s);
