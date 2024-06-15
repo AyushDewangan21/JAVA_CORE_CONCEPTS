@@ -27,23 +27,22 @@ class CheckboxDemo extends Frame implements ItemListener
    c4.addItemListener(this);
   }
 
-public void itemStateChanged(ItemEvent ie)
-
-{
-
-msg="You have selected"; if(c1.getState()) msg=msg+" C"; if(c2.getState()) msg=msg+" C++"; if(c3.getState()) msg=msg+" Java"; if(c4.getState()) msg=msg+" PHP"; l.setText(msg);
-}
-138
+  public void itemStateChanged(ItemEvent ie)
+  {
+    msg="You have selected"; 
+    if(c1.getState()) msg=msg+" C";
+    if(c2.getState()) msg=msg+" C++"; 
+    if(c3.getState()) msg=msg+" Java";
+    if(c4.getState()) msg=msg+" PHP";
+    l.setText(msg);
+  }
 
 
 public static void main(String args[])
-
 {
-
-CheckboxDemo b=new CheckboxDemo ("Demonstration of Checkbox"); b.setSize(350, 250);
-
-b.setVisible(true);
-
+  CheckboxDemo b=new CheckboxDemo ("Demonstration of Checkbox"); 
+  b.setSize(350, 250);
+  b.setVisible(true);
 }
 
 }
