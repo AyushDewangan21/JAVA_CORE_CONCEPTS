@@ -1,39 +1,31 @@
-import java.awt.*; import java.awt.event.*;
+import java.awt.*;
+import java.awt.event.*;
 
 class CheckboxDemo extends Frame implements ItemListener
-
 {
 
-String msg = " ";
+  String msg = " ";
+  Checkbox c1 = new Checkbox("C", null,true);
+  Checkbox c2 = new Checkbox("C++");
+  Checkbox c3 = new Checkbox("Java");
+  Checkbox c4 = new Checkbox("PHP");
 
-Checkbox c1 = new Checkbox("C", null,true); Checkbox c2 = new Checkbox("C++"); Checkbox c3 = new Checkbox("Java"); Checkbox c4 = new Checkbox("PHP");
-
-Label l=new Label(msg); 
-public CheckboxDemo(Strings)
-
-{
-
-super(s);
-
-setLayout(new FlowLayout()); add(c1);
-
-add(c2);
-
-add(c3);
-
-add(c4);
-
-add(l);
-
-c1.addItemListener(this);
-
-c2.addItemListener(this);
-
-c3.addItemListener(this);
-
-c4.addItemListener(this);
-
-}
+  Label l=new Label(msg); 
+  public CheckboxDemo(Strings)
+  {
+   super(s);
+   setLayout(new FlowLayout()); 
+   add(c1);
+   add(c2);
+   add(c3);
+   add(c4);
+   add(l);
+   
+   c1.addItemListener(this);
+   c2.addItemListener(this);
+   c3.addItemListener(this);
+   c4.addItemListener(this);
+  }
 
 public void itemStateChanged(ItemEvent ie)
 
