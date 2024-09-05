@@ -4,6 +4,7 @@
 Example of static block
 */
 
+
 class A2
 {  
  static
